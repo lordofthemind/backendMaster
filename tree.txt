@@ -1,0 +1,25 @@
+.
+├── Makefile
+├── cmd
+├── db
+│   ├── migration
+│   │   ├── 000001_init_schema.down.sql
+│   │   └── 000001_init_schema.up.sql
+│   ├── queries
+│   │   ├── account.sql
+│   │   ├── entry.sql
+│   │   └── transfer.sql
+│   └── sqlc
+│       ├── account.sql.go
+│       ├── db.go
+│       ├── entry.sql.go
+│       ├── models.go
+│       ├── querier.go
+│       └── transfer.sql.go
+├── go.mod
+├── go.sum
+├── main.go
+├── sqlc.yaml
+└── tree.txt
+
+4 directories, 18 files

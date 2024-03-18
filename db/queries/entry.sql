@@ -17,7 +17,3 @@ OFFSET $3;
 -- name: GetEntry :one
 SELECT * FROM entries
 WHERE id = $1 LIMIT 1;
-
--- name: DeleteEntry :exec
-DELETE FROM entries
-WHERE id = $1;
